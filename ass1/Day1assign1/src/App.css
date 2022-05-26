@@ -1,6 +1,48 @@
-.App {
+/* .App {
   text-align: center;
+} */
+.App > div{
+  border: 1px solid green;
+  display: flex;
+  padding: 10px;
+  width: 90%;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
 }
+#links{
+  display: flex;
+  /* gap: 30px; */
+  /* margin-left: -380px; */
+  /* border: 1px solid green; */
+  width: 33%;
+  justify-content: space-around;
+
+}
+#links>p{
+  color: white;
+}
+#imglogo{
+  /* border: 1px solid green; */
+  width: 10%;
+}
+#imglogo img{
+  display: block;
+  width: 100%;
+  /* border: 1px solid white; */
+}
+#btn{
+  display: block;
+  /* border: 1px solid red; */
+  padding: 8px 18px 8px 18px;
+  border-radius: 17px;
+  border-color: transparent;
+  background-color: teal;
+}
+
+
+
 
 .App-logo {
   height: 40vmin;
@@ -35,8 +77,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-button {
-  font-size: calc(10px + 2vmin);
 }
