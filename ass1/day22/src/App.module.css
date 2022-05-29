@@ -1,0 +1,17 @@
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+.styleBox{
+    border: 1px solid red;
+    width: 20px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px;
+    background-color: lightgray;
+    border-radius: 10px;
+  };
