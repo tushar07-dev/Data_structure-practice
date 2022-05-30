@@ -1,0 +1,52 @@
+body {
+  font: 20px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.square {
+  border: 1px solid #999;
+  float: left;
+  font-size: 40px;
+  height: 80px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 80px;
+}
+button:hover {
+  cursor: pointer;
+}
+.status, .restart {
+  margin-top: 10px;
+}
+
+/** button styles **/
+.restart {
+  padding: 10px 15px;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 0.25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.restart:active {
+  color: #fff;
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
+.restart:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.restart:focus {
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 50%);
+}
