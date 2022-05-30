@@ -1,4 +1,6 @@
 import React from "react";
+import "./Style.css"
+
 
 const TodoItem = ({ value }) => {
   return (

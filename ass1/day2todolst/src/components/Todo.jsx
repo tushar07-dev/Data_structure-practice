@@ -42,10 +42,10 @@ function Todo() {
   return (
     <div style={TodoBox}>
             <h1 >Todo App</h1>
+
             <div className='list'>
                 <TodoList  todos={todos} />
             </div>
-
             <div style={inputBox}>
                 <input className='input' type="text" value={value} placeholder="Write something" onChange={(e) =>{setValue(e.target.value);}}/>
                 <button style={addbtn} onClick={() =>{addTodo(value);setValue("")}}>+</button>
