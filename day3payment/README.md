@@ -1,8 +1,7 @@
 
 # Day3 Payment assignment.
 
-A brief description of what this project does and who it's for
-
+Simple React Payment card
 
 ## Netlify Link
 
