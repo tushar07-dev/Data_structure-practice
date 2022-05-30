@@ -1,9 +1,6 @@
-.h2Title{
-    
-}
 .input{
     background-color: whitesmoke;
-    color:black;
-    margin: 10px 0px;
     border-radius: 10px;
+    color:black;
+    margin: 5px 0px;
 }

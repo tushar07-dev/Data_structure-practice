@@ -7,7 +7,7 @@ const TodoItem = ({ value }) => {
     <div className="input">
       <div>{value}</div>
       <div>
-        <input type="radio" />
+        <input type="radio" className="checkmark"/>
       </div>
     </div>
   );
