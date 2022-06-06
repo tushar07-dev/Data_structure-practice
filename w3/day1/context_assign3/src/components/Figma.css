@@ -1,0 +1,89 @@
+.icons img{
+    border-radius: 50%;
+    margin-bottom: 50px;
+    height: 40px;
+    width: 40px;
+}
+.darkb
+{
+   background-color: rgba(37, 37, 37, 0.808);
+   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    width: 300px;
+    height: 400px;
+    margin-left: 180px;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.lightb
+{
+    background-color: white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    width: 300px;
+    height: 400px;
+    margin-left: 180px;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.profile
+{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.bottom
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.dark
+{
+    background-color: rgb(19, 17, 17);
+    color: white;
+    width: 100%;
+    height: 710px;
+    display: flex;
+    flex-direction: column;
+
+}
+.light
+{
+    background-color: white;
+    color: black;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+}
+.dashboard
+{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+    margin-left: 200px;
+    margin-bottom: -35px;
+}
+.sided
+{
+    background-color: black;
+}
+.sidel
+{
+    background-color: white;
+}
+.icons
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 450px;
+    font-size: 20px;
+    margin-left: -20px;
+}

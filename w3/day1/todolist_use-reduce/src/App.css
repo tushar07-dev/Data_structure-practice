@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  margin-top: 2rem;
+}
+body{
+  background-color: #fafafa;
+  
+}
+.toggleTheme{
+  font-size: 25px;
+  text-align: end;
+  padding: 30px;
+  
+}
+.faSun{
+  background-color: #EFFFFD;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.input{
+  background-color: #ea80fc;
+  color: #fafafa;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 20px;
+  border: 0.02px solid rgb(211, 211, 211);
+  outline-color:#FAEEE7;
+  width: 100%;
+  transition: all 800ms;
+}
+input::placeholder{
+  color: #fafafa;
+}
+.input:focus{
+  border-radius: 20px 0px 20px 0px;
+  outline-color:#FAEEE7 ;
+}
