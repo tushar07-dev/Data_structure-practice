@@ -1,5 +1,6 @@
 import { useContext } from 'react';
 import './App.css';
+import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
 import { ThemeContext } from './Context/ThemeContext';
 
@@ -9,6 +10,8 @@ function App() {
   return (
     <div className= {`App ${isLight  ?  "light"  :  "dark"} `} >
       <Navbar></Navbar>
+      <h1>BodyOf Web-Page</h1>
+      <Footer/>
     </div>
   );
 }

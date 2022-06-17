@@ -1,15 +1,18 @@
 import React, { useContext } from 'react'
 import { ThemeContext } from '../Context/ThemeContext';
 
-const Navbar = () => {
+const Footer = () => {
     const {isLight , toggleTheme } = useContext(ThemeContext);
 
   return (
-    <div>Navbar :   :
+    <footer>
+         <div>Navbar :   :
         <button onClick={ toggleTheme }>
             {`Make ${isLight ? "Dark"  :  "Light"}`}
         </button>
     </div>
-  );
-};
-export default Navbar;
+    </footer>
+  )
+}
+
+export default Footer
