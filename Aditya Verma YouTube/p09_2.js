@@ -24,5 +24,5 @@ function smallest_floor(arr , target , start , end){
             start = mid + 1
         }
     }
-    return res;
+    return res
 }

@@ -1,7 +1,6 @@
-let arr =  [11,
-      12,  15, 18, 2, 5, 6,  8];
+let arr =  [11, 12,  15, 18, 2, 5, 6,  8];
 let target = 5;
-let n = arr.length-1;
+let n = arr.length;
 
 // ! Find Elem in Rotation sorted array, 
 //approcah: 
@@ -14,7 +13,7 @@ console.log("Min Index =" , min_index );
 
 //ii)
 let bs1 = Binary_search(arr, target , 0 , min_index - 1);
-let bs2 = Binary_search(arr , target , min_index , n)
+let bs2 = Binary_search(arr , target , min_index , n -1)
 
 // console.log("Bs1" , bs1 ,"Bs2", bs2);
 

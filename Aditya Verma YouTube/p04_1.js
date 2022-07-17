@@ -1,7 +1,7 @@
 let arr = [2 ,4,10 , 10, 10, 10,10 ,21, 22 ];
 let target = 10;
 
-// 1st & Last index of occurance of an Target element 
+// 1st of occurance of an Target element 
 let start = 0;
 let end = arr.length -1;
 let result = -1;

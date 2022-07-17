@@ -1,14 +1,14 @@
 let arr = [2 ,4 ,10 , 10, 10, 10,10 ,21, 22 ];
 let target = 10;
-
+let start = 0;
+let end = arr.length -1;
+let result ;
 // 1st & Last index of occurance of an Target element 
 
 console.log("Ans=" , Last_Occurance(arr, target));
 
 function Last_Occurance(arr, target){
-    let start = 0;
-    let end = arr.length -1;
-    let result ;
+   
         console.log("Last_Occurance");
     
         while( start <= end ){
@@ -21,7 +21,7 @@ function Last_Occurance(arr, target){
                 if(target == arr[mid] ){
                     console.log("Ans" , mid);
             // Keeping Search Continue in 2st part of array  by end = mid - 1;
-                    result = mid;
+                    result  = mid;
                     start =  mid + 1 ;
                 }
             // element is less than mid
