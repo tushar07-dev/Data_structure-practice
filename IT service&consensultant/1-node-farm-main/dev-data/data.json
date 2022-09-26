@@ -1,0 +1,47 @@
+[
+{
+"id":0, 
+"productName":"corn",
+"image":"🌽",
+"quantity": 1,
+"country":"germany",
+"price":"2.60",
+"organic":true
+},
+{
+"id":1, 
+"productName":"cornsoup",
+"image":"🍲 ",
+"quantity": 3,
+"country":"germany",
+"price":"2.60",
+"organic":false
+},
+{
+"id":2, 
+"productName":"definalty not corn",
+"image":"😀 ",
+"quantity": 7,
+"country":"germany",
+"price":"2.60",
+"organic":true
+},
+{
+"id":3, 
+"productName":"na na corn",
+"image":"⛔",
+"quantity": 5,
+"country":"germany",
+"price":"2.60",
+"organic":false
+},
+{
+"id":4, 
+"productName":"not corn",
+"image":"🙅‍♂️",
+"quantity": 6,
+"country":"germany",
+"price":"2.60",
+"organic":true
+}
+]

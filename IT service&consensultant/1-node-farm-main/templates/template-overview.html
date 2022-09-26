@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>overview</title>
+    <style>
+      body{
+        color: green;
+        background-color:grey;
+        flex: inline;
+      }
+      .products {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 30px;
+      }
+      .not-organic {
+        display: none;
+      }
+      .card {
+        box-shadow: 5px 10px 10px 10px gainsboro;
+        padding: 20px;
+      }
+      .card:hover {
+        background: gainsboro;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- <h1>node farm</h1> -->
+
+      <!-- <div class="cards-container">{%PRODUCT_CARD%}</div> -->
+      <!-- <div class="cards-container"> -->
+        <!-- <figure class="card">
+          <div class="card_emoji">⭐⭐</div>
+
+          <div class="card__title-box">
+            <h2 class="card__title">Freash Ava</h2>
+          </div>
+
+          <div class="card__details">
+            <div class="card__detail-box">
+              <h6 class="card__detail card__detail--organic">Organic!</h6>
+            </div>
+
+          <div class="card__detail-box">
+            <h6 class="card__detail">4 per </h6>
+          </div>
+
+          <div class="card__detail-box">
+            <h6 class="card__detail card__detail--price"> 6.50 $ </h6>
+          </div>
+
+        </div>
+
+         <a class="card__link" href="#">
+          <span>Deatils <i class="emoji-right">👍</i></span>
+         </a>
+
+        </figure>
+
+        <figure class="card">
+          <div class="card__emoji">⭐⭐</div>
+          <div class="card__title-box">
+            <h2 class="card__title" >Goat & Sheep </h2>
+          </div>
+
+          <div class="card__details">
+            <div class="card__detail-box">
+              <h6 class="card__detail">250 g </h6>
+            </div>
+
+            <div class="card__detail-box">
+              <h6 class="card__detail card__detail--price">5.00$</h6>
+            </div>
+          </div>
+
+          <a class="card__link" href="#">
+            <span>Details <i class="emogi-right">👉</i></span>
+          </a>
+
+        </figure>
+
+        <figure class="card">
+          <div class="card__emoji">🥦</div>
+          <div class="card__title-box">
+            <h2 class="card__title"> >Applolo Brocjli</h2>
+          </div>
+
+          <div class="card__details">
+            <div class="card__detail-box">
+              <h6 class="card__detail card__detail--organic">Organic !</h6>
+            </div>
+
+            
+          <div class="card__detail-box">
+            <h6 class="card__detail">2 per </h6>
+          </div>
+
+          <div class="card__detail-box">
+            <h6 class="card__detail card__detail--price"> 4.50 $ </h6>
+          </div>
+
+          </div>
+        </figure>
+
+      </div> -->
+      
+        <h1>Node Farm</h1>
+        <div class="cards-container">{%PRODUCT_CARDS%}</div>
+    </div>
+  </body>
+</html>

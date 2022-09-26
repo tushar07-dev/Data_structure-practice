@@ -8,7 +8,7 @@ let end = arr.length -1;
 
 
 let ans =  smallest_floor(arr, target , start , end) 
-console.log( "Ans" , ans)
+console.log( "Ans Elme=" , ans)
 
 function smallest_floor(arr , target , start , end){
     while (start <= end){

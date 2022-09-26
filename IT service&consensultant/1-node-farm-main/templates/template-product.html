@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+
+    <title>Document</title>
+    <style>
+      .organic {
+        box-shadow: 1px 2px 3px gainsboro;
+      }
+      .not-organic {
+        display: none;
+      }
+    </style>
+  </head>
+  <title>Node Farm</title>
+  <body>
+    <div>
+      <h1>🌽 Node Farm 🥦</h1>
+      <figure class="product">
+        <div class="product__organic {%NOT_ORGANIC%}"><h5>Organic</h5></div>
+        <a href="/overview" class="product__back">
+          <span class="emoji-left">👈</span>Back
+        </a>
+
+        <div class="product__hero">
+          <span class="product__emoji product__emoji--1">{%IMAGE%}</span>
+          <span class="product__emoji product__emoji--2">{%IMAGE%}</span>
+          <span class="product__emoji product__emoji--3">{%IMAGE%}</span>
+          <span class="product__emoji product__emoji--4">{%IMAGE%}</span>
+          <span class="product__emoji product__emoji--5">{%IMAGE%}</span>
+          <span class="product__emoji product__emoji--6">{%IMAGE%}</span>
+          <span class="product__emoji product__emoji--7">{%IMAGE%}</span>
+          <span class="product__emoji product__emoji--8">{%IMAGE%}</span>
+        </div>
+        <p class="{%NOT_ORGANIC%}">is Organic</p>
+      <p>Product Name : {%PRODUCTNAME%}</p>
+      <p>Import From {%COUNTRY%}</p>
+      <p> In 💵{%PRICE%}$</p>
+      <p>📦 of {%QUANTITY%} {%IMAGE%}</p>
+      </figure>
+  </body>
+</html> 

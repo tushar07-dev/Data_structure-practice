@@ -12,16 +12,14 @@ let arr = [5 , 10 , 20 , 15];
 let arr1 = [ 10 , 20 , 15 , 2 , 23 , 90 , 67];
 // peak elem is 20 , and 90;
 let arr2 = [25, 20 , 7 , 15 , 50, 60];
+let arr3 = [4 ,6 ,7 ,9 ,10 ,-1 ,0 ,1 ,2 ,3];
 //* for index 0 & lastIndex(n-1);
 // if 0th elem is greater than right elem it is peak elem =25;
 //  if (n-1)elem is greater than his left elem it is peak elem = 60
 
 
-// *  2] CRITERIA
-
-
-let Peak_Elemts_ans = console.log(PeakElem(arr))
-
+// *  2] CRITERIA : 
+let Peak_Elemts_ans = console.log(PeakElem(arr3));
 
 function PeakElem(arr){
     let low  = 0 ;
@@ -34,7 +32,7 @@ function PeakElem(arr){
         if(mid > 0 && mid < arr.length - 1){
             // console.log(mid)
             if((arr[mid] > arr[mid - 1]) && (arr[mid] > arr[mid + 1])){
-                return mid
+                return arr[mid]
             }
             else if (arr[mid - 1] > arr[mid]){
                 high = mid - 1;

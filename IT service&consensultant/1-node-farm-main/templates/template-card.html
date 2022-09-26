@@ -1,0 +1,40 @@
+<!-- <div class="card">
+  <p class="{%NOT_ORGANIC%}">Organic</p>
+  <p>{%PRODUCTNAME%}</p>
+  <p>{%IMAGE%}</p>
+  <p>{%COUNTRY%}</p>
+  <p>{%PRICE%}$</p>
+  <a href="/product?id={%ID%}">Detail</a>
+</div> -->
+
+<figure class="card">
+  <div class="card_emoji">{%IMAGE%} {%IMAGE%}</div>
+
+  <div class="card__title-box">
+    <h4 class="card__title">Product Name : {%PRODUCTNAME%}</h4>
+  </div>
+
+  <div class="card__details">
+    <div class="card__detail-box {%NOT_ORGANIC%}">
+      <h6 class="card__detail card__detail--organic">Organic !</h6>
+    </div>
+  
+    <div class="card__detail-box">
+      <h6 class="card__detail"> Quantity :{%QUANTITY%} per 📦</h6>
+    </div>
+
+  <div class="card__detail-box">
+    <h6 class="card__detail card__detail--price">Price : {%PRICE%} $ </h6>
+  </div>
+  
+  <div class="card__detail-box">
+    <h6 class="card__detail card__detail--country">Imported from  {%COUNTRY%}  </h6>
+  </div>
+
+</div>
+
+ <a class="card__link" href="/product?id={%ID%}">
+  <span>Deatils <i class="emoji-right">👍</i></span>
+ </a>
+
+</figure>

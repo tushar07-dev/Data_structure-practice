@@ -21,7 +21,7 @@ function rotate(arr,  n){
 
     while( start <= end ){
         let mid  = Math.floor(start + (end - start)/2);
-        
+
         let next =  ( mid + 1)% n;
         let prev = (mid + n - 1)% n;
         
